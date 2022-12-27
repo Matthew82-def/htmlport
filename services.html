@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="sticky.css" />
+    <script
+      src="https://kit.fontawesome.com/06534b900b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav>
+          <div class="logo">
+            <i
+              class="fa-solid fa-headphones fa-beat"
+              style="--fa-animation-duration: 2s"
+            ></i>
+            <i class="fa-solid fa-guitar fa-fade"></i>
+          </div>
+
+          <div id="navbar" class="menu">
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="services.html">SERVICES</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+              <li><a href="gallery.html">GALLERY</a></li>
+              <!-- <li><a href="">CONT</a></li>
+                        <li><a href="">CONTACT</a></li> -->
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="content">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, ut!
+          Porro quibusdam consectetur minus tempora ut illo, excepturi enim
+          eaque quam fugit. Facere vitae rerum cumque beatae? A ut aliquam
+          blanditiis inventore quae illo tenetur impedit nisi sapiente fugiat
+          facilis vitae asperiores ducimus, dicta doloribus, sunt id possimus
+          harum esse praesentium corrupti, quod accusantium. Porro at molestias
+          nihil facere error voluptate explicabo, quibusdam voluptatibus,
+          dolores minus, fugit necessitatibus! Dolor odit aspernatur beatae
+          laboriosam! Recusandae minima natus laborum saepe doloremque?
+          Perspiciatis distinctio rem possimus eligendi commodi sequi aliquid
+          autem iure placeat modi! Sed possimus atque dolorem, facilis
+          consectetur vel perferendis quis.
+        </p>
+
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
+          voluptatem molestiae ipsam non culpa neque dicta reprehenderit alias
+          saepe, modi, vel, nemo esse! Nisi illum dolore fuga, sint, blanditiis
+          sit ratione maxime voluptatum magnam quibusdam possimus quas.
+          Excepturi et minus molestias, distinctio inventore dolorem? Quia
+          delectus nisi ducimus! Sint, incidunt.
+        </p>
+        <div class="footer">
+          <a href="index.html">*HOME*</a>
+          <a href="about.html">*ABOUT*</a>
+          <a href="contact.html">*CONTACT*</a>
+          <a href="gallery.html">*GALLERY*</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+      $(window).scroll(function () {
+        if ($(window).scrollTop()) {
+          $("nav").addClass("black");
+        } else {
+          $("nav").removeClass("black");
+        }
+      });
+    </script>
+  </body>
+</html>
