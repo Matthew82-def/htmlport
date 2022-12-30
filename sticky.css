@@ -90,3 +90,6 @@ body{
     background-color: #ddd;
     color: black;
   }
+  img{
+    shape-outside: circle(50%);
+  }

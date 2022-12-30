@@ -91,3 +91,24 @@ body{
   background-color: #ddd;
   color: black;
 }
+#image6{
+  float: left;
+  shape-outside: circle(60%);
+  padding-left: 2%;
+  
+}
+#icon{
+  color: rgb(136, 156, 156);
+  font-size: x-large;
+}
+a{
+  color: rgb(136, 156, 156);
+  font-size: small;
+  text-decoration: none;
+}
+#moreimages{
+  font-size: x-large;
+  color:aliceblue;
+  display:flex;
+  justify-content: center;
+}
